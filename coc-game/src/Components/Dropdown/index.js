@@ -14,7 +14,9 @@ export default function TeamDropDown() {
 
   return (
     
-    <Box sx={{ maxWidth: 190 }}>
+    <Box sx={{
+        '& > :not(style)': { m: 1, width: '25ch' },
+      }}>
       <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label">Choose your team</InputLabel>
         <Select

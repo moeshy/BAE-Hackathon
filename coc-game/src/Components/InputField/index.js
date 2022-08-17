@@ -2,6 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { createTheme, ThemeProvider } from '@mui/material';
+import Button from '@mui/material/Button';
 
 const theme = createTheme({
     palette: {
@@ -25,7 +26,6 @@ export default function IdeaInput() {
       <TextField id="filled-basic" label="Your Idea" variant="filled"/>
       <TextField id="filled-basic" label="Carbon Savings" variant="filled"/>
     </Box>
-    <TextField id="filled-basic" label="Your Carbon Savings Calculations" variant="filled" />
     </ThemeProvider>
   );
 }

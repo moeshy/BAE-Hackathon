@@ -11,7 +11,7 @@ const BarChart = () => {
         label: "Carbon Savings",
         backgroundColor: "#77BFA3",
         borderColor: "rgb(255, 99, 132)",
-        data: [30, 40, 70, 100],
+        data: [39, 106, 145, 180],
       },
     ],
   };

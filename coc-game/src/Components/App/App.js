@@ -7,7 +7,7 @@ function App() {
   return (
     <body className="App">
       <NavBar />
-      <h1 className="main-header"> COC Game </h1>
+      <img className="cocLogo" src="https://i.imgur.com/4QtEvDn.png" alt="CoC Logo" border="0"></img>
       <div className="barChartDiv">
         <BarChart />
       </div>

@@ -8,7 +8,7 @@ const BarChart = () => {
     labels: labels,
     datasets: [
       {
-        label: "Carbon Savings",
+        label: "Carbon Savings (kg)",
         backgroundColor: "#77BFA3",
         borderColor: "rgb(255, 99, 132)",
         data: [39, 106, 145, 180],

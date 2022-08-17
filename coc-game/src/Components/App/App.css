@@ -16,7 +16,7 @@
 }
 
 .teamDropDown{
-  padding-top: 3%
+  padding-top: 2%
 }
 
 .inputField{
@@ -38,7 +38,8 @@
 .ideasLeadersTable{
 padding-left: 21%;
 padding-right: 21%;
-padding-top: 2%
+padding-top: 2%;
+padding-bottom: 2%;
 }
 
 .buttonSubmit{

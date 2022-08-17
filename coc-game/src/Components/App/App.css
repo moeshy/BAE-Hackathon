@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background-color: #DDE7C7;
+  height: 100vw;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #BFD8BD;
+  color: grey;
+  text-align: center;
+}

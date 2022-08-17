@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Sign-Up', 'Login', 'BAE'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const theme = createTheme({
@@ -65,7 +65,7 @@ const NavBar = () => {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            BAE Systems
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

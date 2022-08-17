@@ -4,6 +4,15 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
+import InfoIcon from '@mui/icons-material/Info';
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+
+const theme = createTheme({
+  palette: {
+    primary: { main: "#77BFA3" },
+    error: { main: "#FFAC1C" },
+  },
+});
 
 const style = {
   position: "absolute",
@@ -25,7 +34,8 @@ function BasicModal({ title, description, imgSrc, imgAlt, NumberVotes }) {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Open modal</Button>
+    <ThemeProvider theme={theme}>
+      <Button onClick={handleOpen}><InfoIcon/></Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -37,7 +47,8 @@ function BasicModal({ title, description, imgSrc, imgAlt, NumberVotes }) {
             Title: {title}
           </Typography>{" "}
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Number of votes:{NumberVotes}
+            Number of votes: 24	
+
           </Typography>
           <img src={imgSrc} alt={imgAlt} />
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
@@ -46,6 +57,7 @@ function BasicModal({ title, description, imgSrc, imgAlt, NumberVotes }) {
           <p>{description}</p>
         </Box>
       </Modal>
+      </ThemeProvider>
     </div>
   );
 }

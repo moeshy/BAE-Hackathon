@@ -7,6 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { createTheme, ThemeProvider } from '@mui/material';
+import IdeaDetails from '../IdeaDetails/IdeaDetails';
 
 const theme = createTheme({
     palette: {
@@ -39,6 +40,7 @@ export default function IdeaLeadersTable() {
             <TableCell style={{backgroundColor:'#BFD8BD',}} align="right">Idea</TableCell>
             <TableCell style={{backgroundColor:'#BFD8BD',}} align="right">Carbon Saved (kg)</TableCell>
             <TableCell style={{backgroundColor:'#BFD8BD',}} align="right">Number of Votes</TableCell>
+            <TableCell style={{backgroundColor:'#BFD8BD',}} align="right">Info</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -54,6 +56,7 @@ export default function IdeaLeadersTable() {
               <TableCell style={{backgroundColor:'#BFD8BD',}} align="right">{row.fat}</TableCell>
               <TableCell style={{backgroundColor:'#BFD8BD',}} align="right">{row.carbs}</TableCell>
               <TableCell style={{backgroundColor:'#BFD8BD',}} align="right">{row.protein}</TableCell>
+                <TableCell style={{backgroundColor:'#BFD8BD',}} align="right"><IdeaDetails/></TableCell>
             </TableRow>
           ))}
         </TableBody>

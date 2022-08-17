@@ -22,7 +22,6 @@ function App() {
     <body className="App">
     <ThemeProvider theme={theme}>
       <NavBar />
-      <IdeaDetails />
       <img className="cocLogo" src="https://i.imgur.com/Q7MHpH4.png" alt="CoC Logo" border="0"></img>
       <div className="barChartDiv">
         <BarChart />

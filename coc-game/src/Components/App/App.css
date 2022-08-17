@@ -15,6 +15,16 @@
   padding-bottom: 5%;
 }
 
+.teamDropDown{
+  padding-left: 45%;
+  padding-right:20%;
+  padding-top: 3%
+}
+
+.inputField{
+  padding-top: 2%;
+}
+
 .footer {
   position: fixed;
   left: 0;

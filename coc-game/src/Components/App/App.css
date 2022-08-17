@@ -41,6 +41,10 @@ padding-right: 21%;
 padding-top: 2%
 }
 
+.buttonSubmit{
+  padding-bottom: 2%;
+}
+
 .footer {
   position: fixed;
   left: 0;

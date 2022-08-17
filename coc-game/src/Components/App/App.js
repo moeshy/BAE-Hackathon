@@ -31,9 +31,11 @@ function App() {
       <div className="inputField">
           <IdeaInput/>
       </div>
-      <Button variant="contained" color="primary">
+      <div className="buttonSubmit">
+      <Button variant="contained" color="primary" className="buttonSubmit">
     Submit Idea
     </Button>
+    </div>
       </div>
     <div className="ideaLeadersBorder">
     <div className="ideasLeadersTable">

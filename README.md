@@ -1,18 +1,21 @@
-# Clash of Cli-mates
+# Clash of Cli-Mates
 
 The brief we were given for this hackathon was;
 
-    If you were working for a large company, like BAE Systems, how could you use a web app to promote sustainability, to individuals and software development project teams and / or to IT operational teams?
-    You might want to think about how you make teams aware of their carbon footprint or to suggest ways that company employees can reduce their own or the company’s carbon footprint.  You may even want to consider the carbon footprint of your proposed web app
-    Alternatively you might want to promote other areas of sustainability such as recycling or reducing use of plastic
+    If you were working for a large company, like BAE Systems, how could you use a web app to promote sustainability,
+    to individuals and software development project teams and / or to IT operational teams? You might want to think about
+    how you make teams aware of their carbon footprint or to suggest ways that company employees can reduce their own or 
+    the company’s carbon footprint.  You may even want to consider the carbon footprint of your proposed web app. 
+    Alternatively you might want to promote other areas of sustainability such as recycling or reducing use of plastic.
+
 
 ## Table of contents
 
 - [Description](#description)
 - [Running Locally](#running-locally)
-  - [Challenges](#challenges)
-  - [Future Plans](#future-plans)
-  - [Built with](#built-with)
+- [Challenges](#challenges)
+- [Future Plans](#future-plans)
+- [Built with](#built-with)
 - [Authors](#authors)
 
 ## Description
@@ -23,14 +26,18 @@ On the app you can choose your team from a drop down menu, then write your idea 
 
 ## Running Locally
 
-This site has been made with create-react-app so to run it locally you can clone the repo and run the script
+This site has been made with create-react-app, so to run it locally you can clone the repo and run the script
+
 npm start
 
 ### Challenges
 
 Any task you are given to complete in less than one day is going to come with challanges, such as;
+
     Settling into the team in a quick manor while still promoting a psycologically safe enviroment
+    
     Deciding on which idea to run with and which tech stack best suits that project
+    
     Splitting the work up so everyone has something enjoyable to do, and the work is spread evenly
 
 ### Future Plans
@@ -43,7 +50,7 @@ Any task you are given to complete in less than one day is going to come with ch
 
 ### Built with
 
-- create-react-app
+- Create-React-App
 - MUI
 - JS
 - HTML
@@ -51,14 +58,22 @@ Any task you are given to complete in less than one day is going to come with ch
 
 ## Authors
 
-- Steven Cheung
-- LinkedIn - [@Steven-Cheung](https://www.linkedin.com/in/steven-cheung321/)
-- Github - [@StevenCK1](https://github.com/StevenCK1)
+ Steven Cheung
+ 
+ LinkedIn - [@Steven-Cheung](https://www.linkedin.com/in/steven-cheung321/)
+ 
+ Github - [@StevenCK1](https://github.com/StevenCK1)
 
-- Lewis Parr
-- LinkedIn - [@-lewis-parr](https://www.linkedin.com/in/-lewis-parr/)
-- Github - [@Le-w-is](https://github.com/Le-w-is)
 
-- Luke Stewart
-- LinkedIn - [@luke-stewart](https://www.linkedin.com/in/luke-stewart-4a428590/)
-- Github - [@moeshy](https://github.com/moeshy)
+ Lewis Parr
+ 
+ LinkedIn - [@-Lewis-Parr](https://www.linkedin.com/in/-lewis-parr/)
+ 
+ Github - [@Le-w-is](https://github.com/Le-w-is)
+
+
+ Luke Stewart
+ 
+ LinkedIn - [@Luke-Stewart](https://www.linkedin.com/in/luke-stewart-4a428590/)
+
+Github - [@moeshy](https://github.com/moeshy)

@@ -24,6 +24,8 @@ This is a web based app designed to encourage enviromentally sustainable thought
 With this app, upon joining the company you would choose a team "Team recycling" or "Team Energy savings" with more teams able to be added. Once in a team you would individually come up with ideas for carbon footprint reduction.
 On the app you can choose your team from a drop down menu, then write your idea using an input field and add the amount of carbon saved once your idea is implemented. The amount of carbon saved would be added to your teams bar on the bar chart. The winning team at the end of the year would be rewarded with a budget to implement the idea that most people voted on.
 
+please feel free to visit our app at [Clash of Cli-Mates](https://clashofclimates.netlify.app/)
+
 ## Running Locally
 
 This site has been made with create-react-app, so to run it locally you can clone the repo and run the script

@@ -18,8 +18,10 @@ const theme = createTheme({
 
 function App() {
   return (
-    
+   
     <body className="App">
+    <div>
+    </div>
     <ThemeProvider theme={theme}>
       <NavBar />
       <img className="cocLogo" src="https://i.imgur.com/Q7MHpH4.png" alt="CoC Logo" border="0"></img>

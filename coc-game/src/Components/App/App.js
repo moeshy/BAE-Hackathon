@@ -11,7 +11,7 @@ import IdeaLeadersTable from "../IdeaLeaders";
 
 const theme = createTheme({
   palette: {
-    primary: { main: "#98C9A3" },
+    primary: { main: "#98C9A2" },
     error: { main: "#FFAC1C" },
   },
 });
